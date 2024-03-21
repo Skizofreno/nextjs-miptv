@@ -83,11 +83,6 @@ export default function Footer({ copyrightText }) {
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {copyrightText}
       </p>
-    <img
-  src="https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp"
-  width="100%"
-  alt=""
-/>
       <ThemeSwitcher />
     </footer>
   );
