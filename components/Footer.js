@@ -1,3 +1,9 @@
+<img
+  src="https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp"
+  width="100%"
+  alt=""
+/>
+
 const sunIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
