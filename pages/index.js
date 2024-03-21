@@ -15,8 +15,11 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          New Era of Entertainment!
+          {globalData.blogTitle}
         </h1>
+  <p className="description">
+  M-IPTV!
+  </p>
         <ul className="w-full">
           {posts.map((post) => (
             <li
