@@ -4,17 +4,16 @@ export default function Header({ name }) {
   return (
     <header>
 {
-  <img style={{ width: '100vw', objectFit:'cover' }}
+  <img style={{ width: '100vw', height:'60vh', objectFit:'cover' }}
   src="https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp"
   alt="" 
   />
     
 }
 
-      <div className="w-12 h-12 rounded-full block mx-auto mb-4 bg-gradient-conic from-gradient-3 to-gradient-4" />
-      <p className="text-2xl dark:text-white text-center">
+      <p className="text-2xl dark:text-white text-left">
         <Link href="/">
-          <a>📱 MIPTV</a>
+          <a>MIPTV</a>
         </Link>
       </p>
     </header>
