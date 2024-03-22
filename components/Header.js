@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Header({ name }) {
   return (
     <header>
-    <div style={{ width: '100vw' }}>
+    <div style={{ width: '100vw', objectFit:cover }}>
 {
   <img
   src="https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp"
