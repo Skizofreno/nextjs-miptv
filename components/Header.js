@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 
 export default function Header({ name }) {
@@ -7,7 +6,7 @@ export default function Header({ name }) {
     <header>
   {
 
-<Image
+<img
   src="https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp"
   alt="Description of the image"
   width={1920} // Assuming the image's original width is 1920 pixels
