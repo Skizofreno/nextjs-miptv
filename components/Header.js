@@ -5,13 +5,19 @@ import Image from 'next/image';
 export default function Header({ name }) {
   return (
     <header>
+  {
 
-    <Image
+<Image
   src="https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp"
   alt="Description of the image"
-  width={100vw}
-  height={60vh}
+  width={1920} // Assuming the image's original width is 1920 pixels
+  height={60 * window.innerHeight / 100} // Set the height to 60% of the viewport height
+  layout="fill"
 />
+
+
+    
+  }
 
 
 
