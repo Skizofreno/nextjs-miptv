@@ -18,7 +18,7 @@ export default function Index({ posts, globalData }) {
           {globalData.blogTitle}
         </h1>
         <p className="description">Best IPTV Provider!</p>
-        <ul className="w-full">
+        <ul className="w-full invisible">
           {posts.map((post) => (
             <li
               key={post.filePath}
