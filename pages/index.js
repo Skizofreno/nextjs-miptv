@@ -15,9 +15,11 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {globalData.blogTitle}
+          Are you looking for the best IP-TV provider in America, Canada, and Europe?
         </h1>
-        <p className="description">Best IPTV Provider!</p>
+        <p className="description"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+  Button
+</button></p>
         <ul className="w-full invisible">
           {posts.map((post) => (
             <li
