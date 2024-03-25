@@ -27,6 +27,9 @@ header:before{
   height: 90vh; 
   z-index:-10;
 }
+.w-full,.w-full li{
+  z-index:10;
+}
 body {
   font-family: var(--font-secondary);
 }
