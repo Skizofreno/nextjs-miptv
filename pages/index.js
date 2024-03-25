@@ -17,10 +17,10 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           Are you looking for the best IP-TV provider in America, Canada, and Europe?
         </h1>
-        <p className="description"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
-  Button
+        <p className="description"><button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+  FREE TRIAL
 </button></p>
-        <ul className="w-full invisible">
+        <ul className="w-full">
           {posts.map((post) => (
             <li
               key={post.filePath}
