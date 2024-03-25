@@ -6,10 +6,6 @@ export default function Header({ name }) {
     <header>
 
 
-<div class=call-to-action>
-    <button class="call-button">FREE TRIAL</button>
-</div>
-
      
     </header>
   );
