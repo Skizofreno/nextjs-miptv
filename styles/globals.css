@@ -1,4 +1,4 @@
-@tailwind base;
+re@tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
@@ -11,7 +11,15 @@ h5,
 h6 {
   font-family: var(--font-primary);
 }
-
+header:before{
+  content:'';
+  background: url('https://raw.githubusercontent.com/Skizofreno/nextjs-miptv/main/header-img.webp') no-repeat left center/cover;
+  position:absolute;
+  top: 0px; 
+  left: 0px; 
+  width: 100vw; 
+  height: 90vh; 
+}
 body {
   font-family: var(--font-secondary);
 }
