@@ -4,19 +4,13 @@ import Link from 'next/link';
 export default function Header({ name }) {
   return (
     <header>
-  {
 
 
-    
-  }
+<div class=call-to-action>
+    <button class="call-button">FREE TRIAL</button>
+</div>
 
-
-
-      <p className="text-2xl dark:text-white text-left">
-        <Link href="/">
-          <a>MIPTV</a>
-        </Link>
-      </p>
+     
     </header>
   );
 }
