@@ -9,7 +9,7 @@ export default function Header({ name }) {
     
   }
 
-<div className=call-to-action>
+<div className="call-to-action">
     <button className="call-button">FREE TRIAL</button>
 </div>
      
